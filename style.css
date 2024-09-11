@@ -2,13 +2,16 @@
     background-color: aqua;
 }
 
+body {
+    background-color: blanchedalmond;
+}
+
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(146, 101, 101);
 }
 
 nav {
     background-color: rgb(168, 158, 158);
-    border-spacing: 100px;
     align-content: normal;
     text-align: right;
 }
@@ -19,9 +22,15 @@ ou .boutonsNav:quelqueChose*/
 .boutonsNav {
     background-color: rgb(189, 53, 29);
     text-decoration: none; /* no underline */
+    margin-right: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .boutonsNav:hover {
-    background-color: rgb(0, 0, 0);
-    color: black;
+    color: rgb(255, 255, 255);
+}
+
+#imageFondAccueil {
+    justify-content: center;
+    opacity: 0.5;
 }
